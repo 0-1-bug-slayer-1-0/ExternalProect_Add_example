@@ -1,0 +1,24 @@
+From 650888eadf1a609c7a898abc03fd949c69b82a79 Mon Sep 17 00:00:00 2001
+From: "feres.khigazi" <feres.khigazi@orioninc.com>
+Date: Thu, 1 Jun 2023 19:25:13 +0300
+Subject: [PATCH] [unity-test] applied color changes
+
+---
+ src/unity.h | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/unity.h b/src/unity.h
+index 8caa785..1b19e5d 100644
+--- a/src/unity.h
++++ b/src/unity.h
+@@ -12,6 +12,7 @@
+ #define UNITY_VERSION_MINOR    5
+ #define UNITY_VERSION_BUILD    1
+ #define UNITY_VERSION          ((UNITY_VERSION_MAJOR << 16) | (UNITY_VERSION_MINOR << 8) | UNITY_VERSION_BUILD)
++#define UNITY_OUTPUT_COLOR
+ 
+ #ifdef __cplusplus
+ extern "C"
+-- 
+2.34.1
+
